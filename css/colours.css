@@ -1,0 +1,21 @@
+/*========== Colours ==========*/
+:root {
+  --white-coffee: #ab986f;
+  --black-bean: #3c1a0e;
+  --black-bean-2: #5e2815;
+  --tan-crayola: #e19b68;
+  --sandy-brown: #f4a460;
+  --eerie-black: #212121;
+  --smoky-black: #0a0604;
+  --deep-space-sparkle: #455559;
+  --xiketic: #10060f;
+  --fire-opal: #e5594c;
+  --princeton-orange: #e47a30;
+  --bistre: #351e14;
+  --rich-black-fogra-39: #010003;
+  --cream: #f2e9dc;
+  --cream-70: rgba(242, 233, 220, 0.7);
+  --cream-50: rgba(242, 233, 220, 0.5);
+  --line: rgba(242, 233, 220, 0.12);
+  --ink: #20120a;
+}

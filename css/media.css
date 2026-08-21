@@ -1,0 +1,106 @@
+@media (max-width: 1060px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .hero {
+    padding-top: 120px;
+  }
+
+  .visual-panel {
+    min-height: 400px;
+  }
+
+  .story-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .story-media {
+    order: 2;
+    height: clamp(320px, 50vh, 460px);
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .shop-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 860px) {
+  .nav-links {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: grid;
+  }
+
+  .feature {
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+    padding-block: 2rem;
+  }
+
+  .feature p {
+    max-width: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .products {
+    grid-template-columns: 1fr;
+    max-width: 420px;
+    margin-inline: auto;
+  }
+
+  .section-block {
+    padding-block: 4.5rem;
+  }
+
+  .hero-actions {
+    gap: 1.25rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 560px) {
+  .shop-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .shop-tile {
+    min-height: 150px;
+  }
+
+  .product-foot {
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 1920px) and (max-height: 1080px) and (min-aspect-ratio: 16/9) {
+  .hero-inner {
+    max-width: 1400px;
+  }
+
+  .visual-panel {
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 1280px) and (max-height: 720px) {
+  .coffee-container section img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
