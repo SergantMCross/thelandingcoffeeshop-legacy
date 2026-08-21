@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Star Coffee — A Pleasure in Life</title>
     <meta name="description" content="Star Coffee. Carefully roasted, thoughtfully brewed, and meant to be enjoyed without rushing.">
-    <link rel="icon" type="image/png" href="assets/coffee.png">
+    <link rel="icon" type="image/png" href="assets/animation/coffee.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -30,7 +30,7 @@
             <a href="#contact">Contact</a>
         </nav>
         <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="menuBox">
-            <img src="assets/nav/menu.png" id="menuIcon" alt="">
+            <img src="assets/icons/menu.png" id="menuIcon" alt="">
         </button>
     </div>
 </header>
@@ -112,7 +112,7 @@
             <div class="products">
                 <article class="product reveal">
                     <div class="pack-shot">
-                        <img src="assets/specialty1.png" alt="Morning Sun — light roast coffee packaging" loading="lazy">
+                        <img src="assets/products/specialty1.png" alt="Morning Sun — light roast coffee packaging" loading="lazy">
                     </div>
                     <div class="roast-level" role="img" aria-label="Light roast">
                         <i class="on"></i><i></i><i></i>
@@ -127,7 +127,7 @@
                 </article>
                 <article class="product reveal" data-delay="1">
                     <div class="pack-shot">
-                        <img src="assets/specialty2.png" alt="Velvet Night — medium roast coffee packaging" loading="lazy">
+                        <img src="assets/products/specialty2.png" alt="Velvet Night — medium roast coffee packaging" loading="lazy">
                     </div>
                     <div class="roast-level" role="img" aria-label="Medium roast">
                         <i class="on"></i><i class="on"></i><i></i>
@@ -142,7 +142,7 @@
                 </article>
                 <article class="product reveal" data-delay="2">
                     <div class="pack-shot">
-                        <img src="assets/specialty3.png" alt="Dark Matter — dark roast coffee packaging" loading="lazy">
+                        <img src="assets/products/specialty3.png" alt="Dark Matter — dark roast coffee packaging" loading="lazy">
                     </div>
                     <div class="roast-level" role="img" aria-label="Dark roast">
                         <i class="on"></i><i class="on"></i><i class="on"></i>
@@ -162,7 +162,7 @@
     <section class="section-block" id="story">
         <div class="wrap story-grid">
             <figure class="story-media reveal">
-                <img src="assets/coffee1.jpg" alt="Atmospheric photograph of freshly brewed coffee" loading="lazy" data-parallax="0.08">
+                <img src="assets/photos/coffee1.jpg" alt="Atmospheric photograph of freshly brewed coffee" loading="lazy" data-parallax="0.08">
             </figure>
             <div class="story-copy">
                 <p class="eyebrow reveal">Our Story</p>
@@ -175,10 +175,29 @@
     </section>
 
     <section class="lifestyle" id="journal">
-        <img class="lifestyle-bg" src="assets/imgs/2.jpg" alt="" loading="lazy" data-parallax="-0.12">
+        <img class="lifestyle-bg" src="assets/photos/2.jpg" alt="" loading="lazy" data-parallax="-0.12">
         <div class="lifestyle-inner wrap">
             <h2 class="reveal"><span class="line">For Slow Mornings.</span><span class="line">Late Nights.</span><span class="line"><em>And Everything Between.</em></span></h2>
             <p class="reveal" data-delay="2">Some cups wake you up. Others make you stay a little longer.</p>
+        </div>
+    </section>
+
+    <section class="section-block" id="showcase">
+        <div class="wrap">
+            <div class="section-head reveal">
+                <p class="eyebrow">The Showcase</p>
+                <h2><span class="line">Every Cup</span><span class="line"><em>Holds a Story.</em></span></h2>
+                <p class="section-desc">Wander through our gallery of roasts, rituals, and quiet moments — best experienced slowly, one frame at a time.</p>
+            </div>
+            <a class="showcase-link" href="./slider.html" aria-label="Open the Star Coffee photo showcase">
+                <span class="showcase-strip">
+                    <figure class="showcase-frame reveal"><img src="assets/photos/1.jpg" alt="Star Coffee moment 01" loading="lazy"></figure>
+                    <figure class="showcase-frame reveal" data-delay="1"><img src="assets/photos/2.jpg" alt="Star Coffee moment 02" loading="lazy"></figure>
+                    <figure class="showcase-frame reveal" data-delay="2"><img src="assets/photos/3.jpg" alt="Star Coffee moment 03" loading="lazy"></figure>
+                    <figure class="showcase-frame reveal" data-delay="3"><img src="assets/photos/4.jpg" alt="Star Coffee moment 04" loading="lazy"></figure>
+                </span>
+                <span class="btn btn-outline showcase-cta">Enter the Showcase <span aria-hidden="true">→</span></span>
+            </a>
         </div>
     </section>
 

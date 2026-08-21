@@ -16,7 +16,7 @@
   border: 8px solid wheat;
   box-shadow: 0 0 0 12px var(--black-bean);
   border-radius: 15px 15px 65px 85px;
-  background: url(../assets/coffee.png);
+  background: url(../assets/animation/coffee.png);
   background-repeat: repeat-x;
   background-position: 0 130px;
   animation: filling 4s infinite;

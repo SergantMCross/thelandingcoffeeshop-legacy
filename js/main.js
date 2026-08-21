@@ -6,7 +6,7 @@ const siteNav = document.getElementById("siteNav");
 function setMenu(open) {
     menuBox.classList.toggle("open-menu", open);
     document.body.classList.toggle("no-scroll", open);
-    menuIcon.src = open ? "assets/nav/close.png" : "assets/nav/menu.png";
+    menuIcon.src = open ? "assets/icons/close.png" : "assets/icons/menu.png";
     menuToggle.setAttribute("aria-expanded", String(open));
     menuToggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
 }

@@ -37,6 +37,10 @@
     gap: 3rem;
   }
 
+  .showcase-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .feature {
     grid-template-columns: minmax(0, 1fr);
     gap: 0.6rem;
@@ -63,6 +67,28 @@
     grid-template-columns: minmax(0, 1fr);
     max-width: 420px;
     margin-inline: auto;
+  }
+
+  .showcase-strip {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    margin-inline: -1.25rem;
+    padding-inline: 1.25rem;
+  }
+
+  .showcase-strip::-webkit-scrollbar {
+    display: none;
+  }
+
+  .showcase-frame {
+    flex: 0 0 68%;
+    scroll-snap-align: start;
+  }
+
+  .showcase-frame:nth-child(even) {
+    margin-top: 1.5rem;
   }
 
   .shop-grid {
